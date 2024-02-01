@@ -2,7 +2,7 @@
   "name": "got-commonjs",
   "version": "1.0.5",
   "description": "got commonjs",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "node_modules/.bin/tape test/*.js",
     "build": "npx rollup -c",
