@@ -1,3 +1,3 @@
 import got from 'got';
 
-module.exports = got;
+export default got;
