@@ -1,6 +1,6 @@
 {
   "name": "got-commonjs",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "got commonjs",
   "main": "index.js",
   "scripts": {
