@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/tape test/*.js",
+    "build": "npx rollup -c",
     "publish:public": "npm publish  --access public",
     "publish:dry:run": "npm publish --dry-run"
   },
@@ -31,6 +32,7 @@
     "got": "^14.1.0"
   },
   "devDependencies": {
+    "rollup": "^4.9.6",
     "tape": "~2.3.2"
   }
 }
