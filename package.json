@@ -1,0 +1,36 @@
+{
+  "name": "got-commonjs",
+  "version": "1.0.0",
+  "description": "got commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tape test/*.js",
+    "publish:public": "npm publish  --access public",
+    "publish:dry:run": "npm publish --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuanzhhh/got-commonjs"
+  },
+  "keywords": [
+    "ffmpeg",
+    "static",
+    "library",
+    "binary",
+    "binaries",
+    "mac",
+    "linux",
+    "windows"
+  ],
+  "author": "evan yuan <evan.yuanzh@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/yuanzhhh/got-commonjs/issues"
+  },
+  "dependencies": {
+    "got": "^14.1.0"
+  },
+  "devDependencies": {
+    "tape": "~2.3.2"
+  }
+}
