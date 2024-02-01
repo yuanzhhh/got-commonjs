@@ -1,8 +1,8 @@
 {
   "name": "got-commonjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "got commonjs",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "node_modules/.bin/tape test/*.js",
     "publish:public": "npm publish  --access public",
